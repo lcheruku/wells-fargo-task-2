@@ -16,9 +16,9 @@ public class Client {
 
     @ManyToOne
     @JoinColumn (name = "advisorID")
-    private Advisor advisor; // Advisor referenced as foreign key 
+    private Advisor advisor;
 
-    @Column(nullable = false) // Specifying that column should not allow null values
+    @Column(nullable = false) 
     private String firstName;
 
     @Column(nullable = false) 

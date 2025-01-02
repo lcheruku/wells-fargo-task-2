@@ -18,11 +18,11 @@ public class Security {
   
     @ManyToOne
     @JoinColumn(name = "clientID")
-    private ClientPortfolio portfolio; // clientPortfolio referenced as a foreign key
+    private ClientPortfolio portfolio; 
 
     @ManyToOne
     @JoinColumn(name = "advisorID")
-    private Advisor advisor; // Advisor referenced as a foreign key
+    private Advisor advisor; 
 
     @Column(nullable = false)
     private String name;
